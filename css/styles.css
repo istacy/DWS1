@@ -1,8 +1,10 @@
+/* colors from hslpicker.com */
 body {
 	background-color: cornflowerblue;
 	background-color: hsl(0,0%,50%)
 	}
 	
+/* style from www.jankoatwarpspeed.com/two-simple-ways-to-create-text-embossing-effect */	
 h1 {
 	text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
 	color: #1D6679;
@@ -12,14 +14,18 @@ h1 {
 	padding: 10px;
 	}
 	
+/* color from abode kuler */	
 h2 {
 	color: #95C11E;
 	}
 	
+	
+/* color from abode kuler */		
 h3 {
 	color: rgb(255, 231, 0);
 	margin-left: 20px;
 	}
+	
 	
 a:link {
 	font-weight: normal;
