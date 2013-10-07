@@ -1,0 +1,84 @@
+/* colors from hslpicker.com */
+body {
+	background-color: cornflowerblue;
+	background-color: hsl(0,0%,50%)
+	}
+	
+/* style from www.jankoatwarpspeed.com/two-simple-ways-to-create-text-embossing-effect */
+/* font from google fonts */	
+h1 {
+	text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+	color: #E85942;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 4em;
+	font-family: 'Walter Turncoat', cursive;
+	background-color: grey;
+	padding: 10px;
+	}
+	
+/* color from abode kuler */
+/* font from google fonts */	
+h2 {
+	font-style: normal;
+	font-family: 'Bubbler One', sans-serif;
+	color: #95C11E;
+	text-indent: 10px;
+	}
+	
+p {
+	font-style: normal;
+	font-family: Verdana, Geneva, sans-serif;
+	text-indent: 10px;
+	}
+
+form {
+	padding: 10px;
+	}
+	
+fieldset {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border: 2px solid #95C11E;
+	background-color: white;
+	opacity: 0.5;
+	line-height: 90%;
+	}
+	
+legend {
+	font-style: normal;
+	font-weight: bold;
+	color: black;
+	}
+	
+/* unvisited link */	
+a:link {
+	color: #E85942;
+	font-weight: normal;
+	text-decoration: none;
+	}
+
+/* visited link */
+a:visited {
+	color: #00CCFF;
+	text-decoration: none;
+	}
+
+/* mouse over link */	
+a:hover {
+	color: #E85942;
+	text-decoration: underline;
+	background-color: #00CCFF;
+	}
+	
+/* selected link */
+a:active {
+	color: #FFCC00;
+	}	
+	
+/* p.jibbing, p.freeriding, p.freestyle, p.bigair, p.halfpipe, p.railjam {
+	background-color: white;
+	opacity: 0.5;
+	line-height: 90%;
+	} */
