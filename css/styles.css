@@ -1,0 +1,37 @@
+body {
+	background-color: cornflowerblue;
+	background-color: hsl(0,0%,50%)
+	}
+	
+h1 {
+	text-shadow: -1px -1px 1px #fff, 1px 1px 1px #000;
+	color: #1D6679;
+	font-size: 4em;
+	font-weight: bold;
+	background-color: grey;
+	padding: 10px;
+	}
+	
+h2 {
+	color: #95C11E;
+	}
+	
+h3 {
+	color: rgb(255, 231, 0);
+	margin-left: 20px;
+	}
+	
+a:link {
+	font-weight: normal;
+	text-decoration: none;
+	}
+	
+a:hover {
+	text-decoration: underline;
+	}
+	
+p.jibbing, p.freeriding, p.freestyle, p.bigair, p.halfpipe, p.railjam {
+	margin-left: 50px;
+	background-color: white;
+	opacity: 0.5;
+	}
