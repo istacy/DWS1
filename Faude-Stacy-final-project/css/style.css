@@ -1,0 +1,619 @@
+/* ================= General tags ================= */
+body {
+	font: 12px Helvetica, Arial, Tahoma, sans-serif;
+	color:#666666;
+	background:#f6f4e7;
+	}
+	
+h1, h2, h3 {
+	font-family: Helvetica, Arial, Tahoma, sans-serif;
+	margin-bottom:12px;
+	font-weight:600;
+	}
+	
+a:link, a:visited, a:hover, a:active, a:focus {
+	text-decoration:none;
+	outline: none;
+	font-family: Helvetica, Arial, Tahoma, sans-serif;
+	}
+	
+a {
+	color:#d93e39;
+	font-family: Helvetica, Arial, Tahoma, sans-serif;
+	}
+
+p {
+	color:#74665b;
+	font-size:12px;
+	font-family: Helvetica, Arial, Tahoma, sans-serif;
+	line-height:22px;
+	padding: 10px;
+	}
+
+figure {
+	float: left;
+	width:281px;
+	height:140px;
+	padding:5px;
+	border:1px solid #cccccc;
+	display:block;
+	border-radius:3px;
+	}
+	
+figcaption {
+	position: relative;
+	float: left;
+	clear: both;
+	color: lightblue;
+	padding: 5px 0 20px 0;
+	}
+	
+blockquote {
+  font: 20px serif;
+  padding: 10px;
+  background-color: #faebbc;
+  border-top: 1px solid #e1cc89;
+  border-bottom: 1px solid #e1cc89;
+  margin: 20px;
+  text-indent: 23px;
+  }
+  
+/* ================= Headers ================= */
+h1 {
+	font-size:25px;
+	color:#453C34;
+	text-shadow: 2px 2px #999;
+	}
+	
+h2 {
+	font-size:22px;
+	color:#453C34;
+	text-shadow: 2px 2px #999;
+	}
+	
+h3 {
+	font-size:18px;
+	color:#453C34;
+	padding: 10px;
+	}
+
+
+h1.regular, h2.regular, h3.regular {
+	font-weight:400;
+	}
+	
+h1.white, h2.white, h3.white {
+	color:#fff;
+	}
+	
+h1.page_title {
+	margin-bottom:10px;
+	}
+	
+h1.bottom_line {
+	border-bottom:1px solid #d9d9d9;
+	margin:20px 0 30px 0;
+	padding:0 0 10px 0;
+	}
+	
+h2.bottom_line {
+	border-bottom:1px solid #d9d9d9;
+	margin-bottom:10px;
+	}
+	
+h1 strong, h2 strong, h3 strong {
+	font-weight:600;
+	}
+	
+/* ================= List Styles ================= */
+ul {
+	list-style:none;
+	margin-top:0;
+	}
+	
+ol {
+	float: right;
+	color: white;
+	margin-bottom:0;
+	margin-top:0;
+	padding: 0 10%;
+	background: black;
+	opacity:0.2;
+	}
+	
+ol, ol li {
+	list-style:decimal outside;
+	}
+	
+
+/* ================= Tables ================= */
+table {
+  	border-collapse: collapse;
+  	border: 6px solid #C5BA85;
+  	font: normal 10px verdana, arial, helvetica, sans-serif;
+  	background: #FFFF99;
+  	margin: 40px 0 0 0;
+  	border-radius:10px
+  	}
+
+caption {
+ 	 padding: 0 .4em .4em;
+ 	 text-align: left;
+ 	 font-size: 2em;
+ 	 font-weight: bold;
+ 	 text-transform: uppercase;
+ 	 color: #333333;
+ 	 background: transparent;
+ 	 }
+  
+td, th {
+	  color: #636363;
+	  border: 1px solid #cc9;
+	  padding: .3em;
+ 	 }
+  
+thead th, tfoot th {
+  	font: normal 11px georgia, verdana, arial, helvetica, sans-serif;
+  	border: transparent;
+ 	 text-align: left;
+ 	 font-size: 1em;
+ 	 font-weight: bold;
+ 	 color: #333333;
+ 	 background: #C5BA85;
+ 	 }
+  
+tbody td a {
+ 	 background: transparent;
+ 	 color: #72724c;
+ 	 text-decoration: none;
+ 	 }
+  
+tbody td a:hover {
+ 	 background: transparent;
+ 	 color: #636363;
+ 	 }
+  
+tbody th a {
+  	font: normal 11px georgia, verdana, arial, helvetica, sans-serif;
+ 	 background: transparent;
+ 	 color: #333333;
+ 	 text-decoration: none;
+ 	 font-weight:normal;
+ 	 }
+  
+tbody th a:hover {
+ 	 background: transparent;
+ 	 color: #333333;
+ 	 }
+  
+tbody th, tbody td {
+ 	 vertical-align: top;
+ 	 text-align: left;
+ 	 }
+  
+.odd {
+  	background: #91AB59;
+  	}
+  
+tbody tr:hover {
+ 	 color: #333444;
+ 	 background: #DDCFAE;
+ 	 }
+  
+tbody tr:hover th,
+tbody tr.odd:hover th {
+  	background: #C5BA85;
+ 	 }
+
+tbody th, tbody td {
+	text-align:left;
+ 	vertical-align:top;
+	}
+	
+tfoot td {
+	background:#5C443A;
+ 	color:#FFFFFF;
+ 	padding-top:3px;
+ 	}
+.odd {
+	background:#fff;
+	}
+	
+tbody tr:hover {
+	background:#99BCBF;
+ 	border:1px solid #03476F;
+ 	color:#000000;
+	}
+/* ================= Forms ================= */
+form {
+	background: #666666;
+	width: 90%;
+	border: 1px solid #999;
+	margin: 20px;
+	padding: 10px;
+	background: linear-gradient(to bottom,  rgba(104,67,12,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+	}
+	
+form p, li{
+	color: white;
+	font-weight: bold;
+	padding: 3px;
+	}
+	
+label {
+	float: left;
+	text-align: right;
+	margin-right: 25px;
+	width: 100px;
+	}
+	
+input, select, textarea {
+	border:1px solid #cccccc;
+	padding:7px 10px 7px 10px;
+	font-size:11px;
+	display: block;
+	color:#000000;
+	border-radius:15px;
+	}
+	
+input[type="radio"] {
+	margin: 3px 3px 0px 5px;
+	display: inline;
+	}
+	
+.required_info {
+	font-size:11px;
+	margin:0 0 10px 0;
+	}
+	
+.required_info span {
+	color:red;
+	}
+	
+.inputText {
+	width:300px;
+	height:24px;
+	border:1px solid #cccccc;
+	padding:7px;
+	}
+	
+.inputTextarea {
+	width:525px;
+	height:250px;
+	border:1px solid #cccccc;
+	padding:7px;
+	}
+	
+.contact_form .inputText.error_class {
+	border:1px solid #ef716d;
+	}
+	
+.contact_form .inputTextarea.error_class {
+	border:1px solid #ef716d;
+	}
+	
+.contact_form label {
+	margin-right: 0.5em;
+	color: white;
+	font-size:13px;
+	}
+.contact_form label span {
+	color:red;
+	}
+
+/* === Clearfix === */
+.clear {
+	clear:both;
+	display:block;
+	height:0;
+	overflow:hidden;
+	visibility:hidden;
+	width:0
+}
+.clearfix:after {
+	clear:both;
+	content:' ';
+	display:block;
+	font-size:0;
+	height:0;
+	line-height:0;
+	visibility:hidden;
+	width:0
+}
+
+/* ================= GENERAL STRUCTURE ================*/
+
+/* ================= Header and Logo ================= */
+.container {
+	width:940px;
+	margin:0 auto;
+	}
+	
+.logo p {
+	font-family: 'Mystery Quest', cursive;
+	font-size: 2em;
+	}
+	
+.header_bg {
+	background:#403830 url(../images/header-bg.jpg) repeat-x;
+	border-radius: 15px;
+	box-shadow: 10px 10px 5px #888888;
+	}
+
+.header_bg .logo {
+	float:left;
+	margin-bottom:10px;
+	margin-top: 100px;
+	}
+	
+/* ================= Header Menu ================= */
+.main-menu {
+	margin:113px 0 0 0;
+	float:right;
+	}
+	
+.main-menu ul {
+	margin:0;
+	}
+	
+.main-menu li ul {
+	padding-top:2px;
+	left:-2px;
+	}
+
+.main-menu li {
+	white-space:nowrap;
+	display:block;
+	position:relative;
+	margin:0;
+	padding:0;
+	z-index:100;
+	}
+	
+.main-menu a {
+	display:block;
+	position:relative;
+	font-size:14px;
+	font-family:"Helvetica neue", Arial, sans-serif;
+	color:#f9f4e1;
+	font-weight:bold;
+	}
+	
+.main-menu a:hover {
+	text-decoration:none;
+	color:#d8c0a8;
+	}
+
+.main-menu > ul > li {
+	float:left;
+	margin-right:28px;
+}
+
+.main-menu li ul {
+	display:none;
+	position:absolute;
+	top:100%;
+	z-index:100;
+	}
+	
+.main-menu li:hover > ul {
+	display:block;
+	}
+
+.main-menu li ul li {
+	border-bottom:1px solid #534a42;
+	background:#FFF;
+	}
+	
+	.main-menu li ul li a:hover {
+	background:#f5f5f5;
+	color:#d43a32;
+	}
+
+.main-menu li ul li a {
+	padding:0 25px 0 12px;
+	line-height:33px;
+	background:#403830;
+	}
+	
+.main-menu li ul li ul {
+	top:-1px !important;
+	left:100% !important;
+	padding:0 !important;
+	}
+/* ================= Footer ================= */
+.footer_bg {
+	border-top:10px solid #d93e39;
+	background:#282828;
+	margin-top:60px;
+	}
+
+.footer {
+	margin-top:35px;
+	}
+
+.footer_bg_bottom {
+	border-top:1px solid #453c34;
+	background:#403830;
+	border-radius: 15px;
+	box-shadow: 10px 10px 5px #888888;
+	}	
+
+
+/* ================= Columns ================= */
+.content {
+	width:620px;
+	margin:25px 40px 0 0;
+	float:left;
+	}
+	
+.sidebar {
+	width:280px;
+	margin:10px 0 0 0;
+	float:left;
+	}
+	
+.col_1_2 {
+	width:460px;
+	float:left;
+	margin:0 20px 0 0;
+	}
+
+.content .col_1_2 {
+	width:300px;
+	}
+
+.col_1_2.last {
+	margin:0;
+	}
+	
+.content .col_1_2.last {
+	margin:0;
+	}
+
+
+/* ================= Homepage Stuff ================= */
+
+.homepage_brown_bg {
+	background:#403830 url(../images/banner-bg.jpg) repeat;
+	border-top:1px solid #453c34;
+	border-radius: 15px;
+	box-shadow: 10px 10px 5px #888888;
+	}
+	
+.homepage_brown_bg p {
+	color:#fafaf5;
+	}
+
+
+/* ================= Blockquote ================= */
+
+blockquote p {
+	font-family:Helvetica, Arial, Tahoma, sans-serif;
+	font-size:11px !important;
+	color:#666666;
+	line-height:22px;
+	padding:0;
+	margin-bottom:20px;
+	}
+	
+blockquote {
+	quotes: none;
+	padding: 0 10px 0 22px !important;
+	font-family:Helvetica, Arial, Tahoma, sans-serif;
+	font-size:11px !important;
+	color:#666666;
+	line-height:22px;
+	border-left: 4px solid #ADD3DD;
+	}
+
+
+/* ======================================================================================================
+ MEDIA QUERIES
+=======================================================================================================*/	
+
+/* ================= Tablet (Portrait) 768px - 959px ================= */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+/* ================= Logo and Main menu ================= */
+.logo {
+	display: block;
+	float: none;
+	width:100%;
+	}
+	
+.main-menu {
+	margin:0 0 30px 0;
+	float:left;
+	}
+
+/* ================= Container and Columns ================= */
+.container {
+	width: 748px;
+	}
+.col_1_2 {
+	width: 364px;
+	}	
+
+.content .col_1_2 {
+	width:239px;
+	margin:0 10px 0 0;
+	}
+}
+
+
+/* ================= Mobile (Portrait) < 767px ================= */
+@media only screen and (max-width: 767px) {
+/* ================= Logo and Main menu ================= */
+.logo {
+	display:block;
+	float:none;
+	text-align:center;
+	width:100%;
+	}
+.header_bg {
+	height: auto;
+	}
+.main-menu {
+	margin:0 0 30px 0;
+	float:left;
+	width:100%;
+	}
+.content {
+	float:none;
+	margin-right:0;
+	width:300px;
+	}
+}
+
+
+
+/* ================= Mobile (Landscape) 480px - 767px ================= */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+/* ================= Logo and Main menu ================= */
+	.logo {
+	display: block;
+	float: none;
+	width:100%;
+	}
+.main-menu {
+	margin:0 0 30px 0;
+	float:left;
+	}
+
+.content {
+	width:420px;
+	margin-right:0;
+	}
+
+.col_1_2 {
+	float: none;
+	margin-right: 0;
+	}
+.container, .col_1_2 {
+	width:420px;
+	}
+.content .col_1_2 {
+	width:420px;
+	}
+}
+
+
+/* ================= Mobile (Portrait) < 320px ================= */
+@media only screen and (max-width: 317px) {
+/* ================= Container and Columns ================= */
+	.col_1_2, .col_1_3, .col_1_4, .col_1_5, .col_3_4, .col_2_3 {
+	float:none;
+	margin:0;
+	}
+.container, .col_1_2, .col_1_3, .col_1_4, .col_1_5, .col_3_4, .col_2_3 {
+	width:226px;
+	}
+.content .col_1_2, .content .col_1_3, .content .col_1_4, .content .col_1_5, .content .col_3_4, .content .col_2_3 {
+	width:226px;
+	}
+
+.content {
+	width:226px;
+	margin-right:0;
+	}
+}
